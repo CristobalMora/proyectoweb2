@@ -14,6 +14,7 @@ body{
     width: 100%;
     top:0;
     left:0;
+    z-index: 10; 
 }
 
 .nav{
@@ -40,12 +41,12 @@ body{
 .nav-menu{
     font-size: 20px;
     display: flex;
-    margin-right: 40px;
+    margin-right: 60px;
     list-style: none;
 }
 
 .nav-menu-intem{
-    font-size: 18px;
+    font-size: 40px;
     margin: 0 10px;
     line-height: 80px;
     text-transform: uppercase;
@@ -55,12 +56,90 @@ body{
 .nav-menu-link{
     padding: 10px 12px;
     border-radius: 4px;
+    color: aliceblue;
   
 }
 
 .nav-menu-link:hover{
-    background-color: rgb(51, 50, 50);
+    color: goldenrod;
     transition: 0.5s;
+
+}
+
+/*buscador de contenido*/
+#ctn-icon-search{
+    position: absolute;
+    right: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ctn-icon-search i{
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all 300ms;
+
+}
+#ctn-icon-search i:hover{
+    color: goldenrod;
+    transition: 0.5s;
+
+}
+
+#ctn-bars-search{
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 15px;
+    z-index: 9;
+}
+#ctn-bars-search input{
+    display: block;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    outline: 0;
+    
+
+}
+#box-search{
+    position:fixed;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 1200px;
+    background-color: aliceblue;
+    z-index: 8;
+    overflow: hidden;
+}
+
+#box-search li a{
+display: block;
+width: 1200px;
+color: antiquewhite;
+padding: 12px 20px;
+}
+
+#box-search li a:hover{
+    background-color: antiquewhite;
+}
+
+#box-search li a i{
+margin-right: 10px;
+color: antiquewhite;
+}
+
+#cover-ctn-search{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background: rgba(0, 0,0,);
 }
 
 .carousel{
@@ -86,3 +165,4 @@ body{
     z-index: -1;
     border-radius: 15px;
 }
+
