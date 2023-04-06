@@ -193,8 +193,6 @@ galery{
     cursor: pointer;
     opacity: 0.5;
     transition: 0.5s;
-    
-
 }
 
 
@@ -203,7 +201,6 @@ galery{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
 }
-
 /*
 .photos .img{
     width: 100%;
@@ -225,7 +222,6 @@ footer{
     margin: auto;
     margin-top: 90px;
 }
-
 
 
 .box_footer{
@@ -285,11 +281,5 @@ footer{
     height: 1px;
     background-color: rgb(161, 168, 175);
 }
-
-
-
-
-
-
 
 
