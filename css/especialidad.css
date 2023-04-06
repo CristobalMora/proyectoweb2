@@ -1,0 +1,62 @@
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  background:url(../imagen/fondo-acuarela-pintada-mano-forma-cielo-nubes.jpg);
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(165, 77, 77);
+    margin-top: 100px;
+    font-weight: 100;
+}
+
+.continer{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.continer .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgb(88, 96, 104);
+    overflow: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.continer .card:hover{
+    transform: translate(-15px);
+    box-shadow: 0 12px rgb(88, 96, 104);
+}
+.continer .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4{
+    font-weight: 600;
+}
+.continer .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.contaner .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: bisque;
+
+}
+
