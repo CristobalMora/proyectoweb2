@@ -68,15 +68,16 @@ body{
 }
 
 .buscar input{
-    width: 0px;
+    width: 10px;
     height: 40px;
-    padding: 0 20px;
+    padding: 0 40px;
     font-size: 18px;
     color: #802626;
     outline: none;
     border: 1px solid rgb(177, 154, 154);
     border-radius: 30px;
     transition: all 7 ease;
+    size-adjust: 40px;
 }
 
 .btn{
@@ -99,6 +100,19 @@ body{
 }
 .buscar input:focus{
     width: 240px;
+}
+.avatar{
+    top: 10%;
+    color: aliceblue;
+    position: absolute;
+    left: 1200px;
+    cursor: pointer;
+    padding: 0 20px;
+}
+
+.avatar i{
+    font-size: 40px;
+
 }
 
 
@@ -205,7 +219,7 @@ footer{
 }
 
 .box_footer .logo img{
-    width: 100px;
+    width: 90px;
     border-radius: 6px;
 }
 .box_footer .terms{
