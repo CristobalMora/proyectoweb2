@@ -66,32 +66,48 @@ body{
     display: flex;
 }
 
-.box{
-    padding: auto;
+.buscar{
+    padding: 5px;
     position: absolute;
     top: 25px;
-    left: 850px;
+    left: 910px;
     transform: translate(-50%, -50%);
 }
 
-input.src{
-    padding: 25x 15px 30px 32px;
-    outline: none;
+.buscar input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
     font-size: 18px;
-    border-radius: 10px;
-    color: #020202;
-    border: 3px solid#a50559;
-    background-color: rgb(236, 211, 147) ;
-    width: 60px;
-    transition: all .5s;
+    color: #802626;
+    outline: none;
+    border: 1px solid rgb(177, 154, 154);
+    border-radius: 30px;
+    transition: all 7 ease;
 }
 
-input.src:hover{
-    width: 20px;
-    background-color: goldenrod;
-    border-color: #020202;
-    box-shadow: 0 0 5px #07090a80;
+.btn{
+    position: absolute;
+    top: 10;
+    right: 0;
+    background: #641212;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: rgb(252, 249, 244);
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
 }
+
+.buscar:hover input{
+    width: 240px;
+}
+.buscar input:focus{
+    width: 240px;
+}
+
 
 .body_page{
     font-family: sans-serif ;
