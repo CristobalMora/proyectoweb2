@@ -16,26 +16,19 @@ body{
     left:0;
     z-index: 10; 
 }
-/*
-.nav{
-    display: flex;
-    justify-content: space-between;
-    max-width: 992px;
-    margin: 0 auto;
-}
-*/
+
+
 .nav-link{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .logo{
-    width: 175px;
-    height: 80px;
+    width: 170px;
+    height: 70px;
     padding: 0 40px;
-    line-height: 80px;
-    border-radius: 5px;
-    color: aliceblue;
+    line-height: 75px;
+    border-radius: 8px;
 }
 
 .nav-menu{
@@ -137,6 +130,56 @@ body{
     z-index: -1;
     border-radius: 15px;
 }
+galery{
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+
+}
+.galery_photos{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgb(247, 244, 241);
+    background-size: cover;
+    border-radius: 10px;
+    
+
+}
+.galery h1{
+    background-color: rgb(82, 37, 37);
+    font-family: sans-serif ;
+    text-align: center;
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+
+.galery_photos img{
+    width: 250px;
+    max-width: 1200px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.galery_photos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.photos .img{
+    width: 100%;
+
+}
+
 
 footer{
     width: 100%;
@@ -152,6 +195,8 @@ footer{
     margin: auto;
     margin-top: 90px;
 }
+
+
 
 .box_footer{
     display: flex;
