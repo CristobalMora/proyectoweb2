@@ -1,0 +1,26 @@
+
+
+.body{
+    margin: 0;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    float: right;
+    height: 500px;
+}
+.body2s{
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100%;
+    float: lefts;
+    height: 500px;
+}
+
+.pl {
+    color: aquamarine;
+}
+body p h5{
+    max-width: 1200px;
+}
